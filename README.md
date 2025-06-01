@@ -8,9 +8,6 @@ This repository contains machine learning and deep learning models developed for
 
 ```
 Fraud_Detection/
-├── dataset/
-│   ├── fraudTest.csv
-│   ├── fraudTrain.csv
 ├── DL_models
 │   ├── Details
 │   │   └── Details.docx
@@ -41,14 +38,14 @@ Fraud_Detection/
 │   └── Top_Features
 │       ├── top_features_mean_importance.png
 │       └── top_feature_importance.csv
+├── dataset/
+│   ├── fraudTest.csv
+│   ├── fraudTrain.csv
 ```
 
 ---
 
 ## Key Components
-
-### dataset
-- Sparkov data 
 
 ### DL_models
 - **Train_Scripts**: Python scripts to train CNN and LSTM models.
@@ -62,6 +59,8 @@ Fraud_Detection/
 - **Plots**: Visuals of performance metrics and class distributions.
 - **Top_Features**: Feature importance analysis.
 
+### dataset
+- Sparkov data 
 ---
 
 ## Getting Started
